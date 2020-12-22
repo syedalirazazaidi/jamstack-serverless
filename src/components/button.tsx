@@ -1,13 +1,11 @@
 import styled from "styled-components"
-interface Boxfrom {
-  theme?: ThemeInterface
-  borders?: boolean
-  className?: string
+interface btn {
+  button: any
 }
-
-export const Button = styled.button`
+const Button = styled.button`
   background: palevioletred;
   border-radius: 3px;
   border: none;
   color: white;
 `
+export default Button

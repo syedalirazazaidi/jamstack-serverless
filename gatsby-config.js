@@ -5,6 +5,14 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: "Gatsby Tutorial",
+    description: " some random description",
+    author: "JOHN DOE",
+    data: ["item 1", "itme 2"],
+    person: { name: "peter", age: 22 },
+  },
+
   /* Your site config here */
   plugins: [
     {
