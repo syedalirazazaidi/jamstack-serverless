@@ -4,8 +4,12 @@ import { Link } from "gatsby"
 export default function Home() {
   return (
     <div>
+      <div>
+        <h2>This is Home Page</h2>
+      </div>
       <Link to="/about">Back to About Page</Link>
-      about my page!
+      <Link to="https://www.gatsbyjs.org">Gatsby Site</Link>
+      my Home Page!
     </div>
   )
 }
