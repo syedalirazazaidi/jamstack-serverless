@@ -1,0 +1,9 @@
+.page{
+    background-color: black;
+}
+.page h1{
+    color: rgb(236, 232, 225);
+}
+.text{
+    text-transform: uppercase;
+}
