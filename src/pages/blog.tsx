@@ -1,9 +1,8 @@
 import React from "react"
 import Layout from "../components/layout"
 import "../components/layout.css"
-
 import styles from "../components/blog.module.css"
-export default function blog() {
+export default function blog(props) {
   return (
     <Layout>
       <div className={styles.page}>

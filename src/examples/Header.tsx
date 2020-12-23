@@ -25,7 +25,6 @@ export default function Header() {
       },
     },
   } = useStaticQuery(getData)
-  // const title = data.site.siteMetadata.title
   return (
     <div>
       <h1>
@@ -37,30 +36,3 @@ export default function Header() {
     </div>
   )
 }
-
-// const Header = () => {
-//   const data = useStaticQuery(graphql`
-//     {
-//       site {
-//         siteMetadata {
-//           title
-//           description
-//           author
-//           data
-//           person {
-//             name
-//             age
-//           }
-//         }
-//       }
-//     }
-//   `)
-//   return (
-//     <div>
-//       <h2>{data.site.siteMetadata.person.name}</h2>
-//       <h2>{data.site.siteMetadata.person.age}</h2>
-//     </div>
-//   )
-// }
-
-//export default Header
