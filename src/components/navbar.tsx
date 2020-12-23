@@ -17,6 +17,9 @@ export default function Navbar({ text, subtext }: HeaderProps) {
         <li>
           <Link to="/products">Products</Link>
         </li>
+        <li>
+          <Link to="/examples">Examples Link</Link>
+        </li>
       </ul>
     </nav>
   )

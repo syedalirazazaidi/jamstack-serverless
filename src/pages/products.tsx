@@ -1,7 +1,8 @@
 import React from "react"
 import Layout from "../components/layout"
-import "../components/layout.css"
 import styles from "../components/products.module.css"
+import "../components/layout.css"
+
 export default function products() {
   return (
     <Layout>
